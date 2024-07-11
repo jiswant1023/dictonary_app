@@ -9,6 +9,9 @@ function App() {
 
   return (
     <div className="App">
+      <header>
+        <h2>Jiswant Kumar Directory App</h2>
+      </header>
       <div className="tabs">
         <button onClick={() => setActiveTab('addPerson')}>Add New Person</button>
         <button onClick={() => setActiveTab('retrieveInfo')}>Retrieve Information</button>
